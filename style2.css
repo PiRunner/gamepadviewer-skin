@@ -22,6 +22,10 @@
     float: right;
 }
 
+.xbox .quadrant {
+    display: none;
+}
+
 .xbox .button {
     position: absolute;
     background: url(https://svgshare.com/i/TV7.svg);
