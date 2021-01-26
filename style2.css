@@ -2,6 +2,31 @@
     background: url(https://svgshare.com/i/TSh.svg);
 }
 
+.xbox .triggers {
+    width: 500px;
+    height: 74px;
+    position: absolute;
+    left: 179px;
+    top: 47px;
+}
+
+.xbox .trigger {
+    width: 115px;
+    height: 74px;
+    background: url(https://svgshare.com/i/TVV.svg);
+    opacity: 0;
+}
+
+.xbox .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+
+.xbox .trigger.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
 .xbox .bumper {
     width: 170px;
     height: 61px;
